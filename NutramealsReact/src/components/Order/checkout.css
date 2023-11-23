@@ -1,0 +1,26 @@
+.deliveryInfo {
+    margin-bottom: 90px;
+    width: 100vw;
+}
+.beforeh2 {
+    height: 100px;
+}
+.delTitle {
+    background-color: #f0fff0;
+    padding: 8px;
+    border: 1px solid #6482b9;
+    border-radius: 10px;
+    width: 40vw;
+    margin: 0 auto!important;
+}
+.summaryBill {
+    height: 60vh;
+    width: 40vw;
+    overflow: auto;
+    margin: 10px auto;
+    border: 3px dotted #6482b9;
+    background-color: #e9e6ed;
+}
+.table-light{
+    width :100%;
+}

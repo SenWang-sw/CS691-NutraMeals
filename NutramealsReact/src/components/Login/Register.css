@@ -1,0 +1,39 @@
+.registerBox {
+  top: 30%;
+  left: 25%;
+}
+.form-title {
+  padding: 20px;
+  margin: 20px;
+}
+.form-desc {
+  text-align: left;
+}
+.form-desc h4 {
+  text-align: center;
+}
+.form-desc p {
+  text-align: justify;
+  text-justify: auto;
+}
+.bck {
+  background-color: grey;
+}
+.paper {
+  height: 540;
+  width: 500;
+  background-color: red;
+}
+.MuiFormControl-root {
+  width: 100%;
+}
+.formContainer {
+  background-color: rgba(255, 255, 255, 0.932);
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.login-form {
+  justify-content: center;
+  min-height: 40vh;
+}

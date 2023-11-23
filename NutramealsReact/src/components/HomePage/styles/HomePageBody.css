@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Rancho";
+  font-size: 6.5em;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+  color: rgba(255, 255, 255, 0.947);
+}
+
+h2 {
+  font-family: "Sedgwick Ave Display";
+  font-size: 2em;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.HomePageBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0;
+}
+
+.textfield .MuiOutlinedInput-root {
+  border-radius: 20px;
+  background: white;
+  width: 50vw;
+}
+
+.button-div {
+  margin-top: 30px;
+  
+}
+.button {
+  width: 25vw;
+  font-size: 20px;
+}
+
+.btnsH {
+  margin-top: 30px;
+}
+.btn-rest {
+  background-color: rgba(12, 11, 9, 0.6);;
+  background-repeat: no-repeat;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: white;
+  border: 2px solid #cda45e;
+  text-decoration: none;
+  text-align: center;
+  line-height: 20px;
+  width: 25vw;
+}
+.btn-rest:hover {
+  background: #cda45e;
+  color: #fff;
+}
+.btn-bookH {
+  margin-left: 15px;
+}
+
+.ads {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+
+  background-color: rgba(255, 255, 255, 0.774);
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 4.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  .button {
+    width: 40vw;
+    font-size: 10px;
+  }
+}

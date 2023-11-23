@@ -1,0 +1,78 @@
+.login-page {
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginBox{
+  position: absolute;
+  top:30%;
+  left:30%;
+  width: 40%;
+}
+
+.form-title{
+  padding: 20px;
+  margin: 20px;
+}
+.form-desc{
+  text-align: left;
+}
+.form-desc h4{
+  text-align: center;
+}
+.form-desc p{
+  text-align: justify;
+  text-justify: auto;
+}
+.bck{
+  background-color: grey;
+}
+.paper {
+  height: 540;
+  width: 500;
+  background-color: red;
+}
+.MuiFormControl-root{
+    width: 100%;
+}
+.formContainer{
+    margin: 20px 0;
+}
+.login-form
+{
+justify-content: center;
+min-height: 40vh;
+}
+
+.btn-login {
+  background-color: rgba(12, 11, 9, 0.6);;
+  background-repeat: no-repeat;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: white;
+  border: 2px solid #cda45e;
+  text-decoration: none;
+  text-align: center;
+  line-height: 20px;
+  width: 25vw;
+}
+.btn-login:hover {
+  background: #cda45e;
+  color: #fff;
+}

@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+  }
+  .image-container {
+    border-radius: 50px;
+    border-color: black;
+  }
+  #image {
+    height: 100px;
+    width: 100px;
+  }
+  .paper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.8fr 3fr;
+    background-color: #cda45e;
+  }
+  
+  .content-box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .basic-info {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .content-box .contact-details {
+    flex-direction: column;
+  }
+  
+  .username {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  .headings {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 17px;
+    width: 40%;
+  }
+  
+  .data-container {
+    background-color: rgba(0, 0, 0, 0.299);
+    border-radius: 10px;
+    padding: 17px;
+    width: 40%;
+  }
+  
+  .left-panel {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.096);
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  .left-panel-tags {
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+    width: 90%;
+    margin: 1px;
+    text-align: left;
+    border-radius: 10px;
+    font-size: large;
+  }
+  .left-panel-tags:hover {
+    background-color: rgba(91, 38, 38, 0.11);
+  }
+  
+  .left-panel p:nth-child(2) {
+    background-color: rgba(91, 38, 38, 0.507);
+    color: white;
+  }
+  
+  .signout {
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(198, 101, 32, 0.365);
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .signout:hover {
+    background-color: rgba(223, 128, 12, 0.961);
+  }
+  
+  .side-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  

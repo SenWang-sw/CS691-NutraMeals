@@ -1,0 +1,140 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 20px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: white;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    left: 0px;
+    background: white;
+    opacity:4;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: white;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: rgba(12, 11, 9, 0.6);
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: flex;
+    padding-top: 24px;
+    -webkit-box-align: start;
+    align-items: self-start;
+    flex-shrink: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    text-decoration: none;
+  }
+  .image{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  
+  .personImage{
+    width: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 48px;
+  }
+  .personName{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .menuIcons{
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 24px;
+    height: 4px;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .menuOthers{
+     width: 69px;
+    height: 48px;
+  }
+  .menuList{
+    color: black;
+    width: 69px;
+    height: 48px;
+    font-size: 16px;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  .iconImage{
+    width: 25px;
+    height: 25px;
+  }
+  .menuText{
+    color: black;
+  }
+  .spacer{
+    width: 16px;
+    height: 1px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .lineBreak{
+    margin: 12px -24px;
+    background-color: rgb(100, 99, 99);
+    border: none;
+    height: 3px;
+  }
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0,0,0,0.3);
+    opacity: 4;
+  }
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  }
